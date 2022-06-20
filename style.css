@@ -1,0 +1,34 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.side-bar-left {
+    height: 100%;
+    width: 25%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: lightgrey;
+}
+
+.side-bar-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+}
+
+.side-bar-content #profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 45%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: gray;
+}
