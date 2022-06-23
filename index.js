@@ -18,6 +18,3 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "0";
   }
 
-  function myFunction(x) {
-    x.classList.toggle("change");
-  }
