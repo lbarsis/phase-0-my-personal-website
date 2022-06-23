@@ -62,7 +62,7 @@
   font-size: 50px;
   font-family: sans-serif;
   text-align: center;
-  padding-bottom: 150px;
+  padding-bottom: 25px;
 }
 
 .page-title p, a {
@@ -88,9 +88,38 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  margin-bottom: 25px;
   padding: 5px 20px 5px 20px;
   border-radius: 15px;
   width: fit-content;
+}
+
+.comment {
+  background-color: lightgray;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+  height: fit-content;
+  width: 15%;
+}
+
+.comment-section {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-left:solid;
+  border-width: 1px;
+  border-color: #818181;
+  height: 100%;
+  width: 25%;
+}
+
+.sub-header {
+  
+
 }
 
 .page-title footer {
