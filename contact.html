@@ -31,17 +31,24 @@
   <div id="main">
     <div class="page-title">
       <h1 id="contact-header">Contact me!</h1>
-      <p><i>Name:</i> Levi Barsis</p>
-      <p><i>Number:</i> 907-398-6147</p>
-      <a href="mailto:lbarsis@gmail.com"><i>Email:</i> lbarsis@gmail.com</a>
+      <p class="contact-body"><i>Name:</i> Levi Barsis</p>
+      <p class="contact-body"><i>Number:</i> 907-398-6147</p>
+      <a href="mailto:lbarsis@gmail.com" class="contact-body"><i>Email:</i> lbarsis@gmail.com</a>
       <a href="mailto:lbarsis@gmail.com" class="button" id="email-button">Send Email!</a>
-      <p>or...</p>
-      <p>Leave a message!</p>
-      <button class="button" id="leave-message" onclick="leaveMessage()">Add Comment</button>
+      <p class="contact-body">or...</p>
+      <p class="contact-body">Leave a message!</p>
+      <button class="button" id="add-comment" onclick="addComment()">Add Comment</button>
       <footer>Created by me!</footer>
     </div>
-    <div class="comment-section">
-      <h3 class="sub-header">Comments</h3>
+    <div class="comment-section" id="comment-div">
+      <div class="sub-header">
+        <h3 id="comment-section-header"><i>Comments</i></h3>
+      </div>
+      <div class="comment-block">
+        <h4 class="posted-details" id="posted-details-name">Name: </h4>
+        <p class="posted-details" id="posted-details-timestamp"><i>timestamp</i></p>
+        <p class="posted-details" id="posted-details-description">Description:</p>
+      </div>
     </div>
   </div>
 

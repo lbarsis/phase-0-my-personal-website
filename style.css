@@ -65,15 +65,27 @@
   padding-bottom: 25px;
 }
 
-.page-title p, a {
+.contact-body {
+  display: block;
   font-family: sans-serif;
   font-size: 25px;
   color: gray;
   margin-left: 15%;
   margin-right: 15%;
+  text-align: center;
 }
 
-#contact-header, p, a {
+.body {
+  display: block;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: gray;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: left;
+}
+
+#contact-header {
   display: block;
   text-align: center;
 }
@@ -82,6 +94,7 @@
   display: block;
   text-decoration: none;
   font-size: 25px;
+  font-family: sans-serif;
   color: white;
   background-color: #65c9ff;
   text-align: center;
@@ -94,16 +107,23 @@
   width: fit-content;
 }
 
-.comment {
+.comment-block {
   background-color: lightgray;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
   border-radius: 10px;
   border-style: solid;
-  border-color: gray;
-  height: fit-content;
-  width: 15%;
+  border-width: 1px;
+  border-color: #818181;
+  height: 15%;
+  width: 85%;
+}
+
+.posted-details {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .comment-section {
@@ -118,9 +138,24 @@
 }
 
 .sub-header {
-  
-
+  font-size: 15px;
+  margin: auto;
+  color: #818181;
+  text-align: left;
+  font-family: sans-serif;
+  border-bottom: double;
+  border-color: #818181;
+  width: 85%;
 }
+
+.sub-header #comment-section-header {
+  display: block;
+  position: relative;
+  margin-bottom: 0;
+  font-size: 15px;
+  bottom: 0;
+}
+
 
 .page-title footer {
   position: fixed;
