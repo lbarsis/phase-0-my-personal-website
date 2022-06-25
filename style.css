@@ -108,7 +108,7 @@
 }
 
 .comment-block {
-  background-color: lightgray;
+  background-color: #fff;
   margin-right: auto;
   margin-left: auto;
   margin-top: 15px;
@@ -130,6 +130,7 @@
 
 .comment-section {
   position: absolute;
+  background-color: #65c9ff;
   top: 10px;
   right: 10px;
   border-left:solid;
